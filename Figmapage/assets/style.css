@@ -1,0 +1,399 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap");
+
+.mainblok {
+  height: 72px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  background: #ffffff;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.485);
+}
+
+.maininformation {
+  padding-left: 100px;
+  padding-right: 100px;
+  height: 72px;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: initial;
+  justify-content: space-around;
+  display: flex;
+}
+
+.mainbanner1 {
+  width: 100%;
+}
+
+.logoname {
+  height: 40px;
+}
+
+button {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  gap: 8px;
+  width: 256px;
+  height: 40px;
+  border: 1px solid #70c05b;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 4px;
+  flex: none;
+  align-self: center;
+  color: #70c05b;
+  background: #ffffff;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+#catalogue {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  gap: 8px;
+  width: 140px;
+  height: 40px;
+  background: #70c05b;
+  border: none;
+  border-radius: 4px;
+  flex: none;
+  order: 0;
+  font-family: "Rubik", sans-serif;
+  color: white;
+}
+
+.productsearch {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2px;
+  gap: 10px;
+  width: 375px;
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid #70c05b;
+  border-radius: 4px;
+  flex: none;
+  justify-content: space-around;
+  font-family: "Rubik", sans-serif;
+}
+
+.mainbuttons {
+  width: 65px;
+  height: 60px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  display: flex;
+  align-items: baseline;
+  text-align: center;
+  flex-wrap: wrap;
+  flex-direction: initial;
+  justify-content: space-around;
+  color: #414141;
+  background-color: #ffffff00;
+  flex: none;
+  border: none;
+}
+
+#account {
+  width: 150px;
+  height: 40px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  color: #232323;
+  background-color: #ffffff00;
+  flex: none;
+  flex-wrap: nowrap;
+  align-self: center;
+  border: none;
+  justify-content: space-around;
+}
+#menu {
+  width: 49px;
+  height: 18px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #414141;
+  background-color: #ffffff00;
+  flex: none;
+  border: white;
+}
+.page {
+  height: 2750px;
+  background-color: rgb(251, 248, 236);
+}
+
+.conteiner {
+  width: 270px;
+  height: 350px;
+  background-color: rgb(255, 255, 255);
+}
+
+.allsmh {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  flex-direction: initial;
+  justify-content: space-between;
+  color: #414141;
+  flex: none;
+  border: none;
+}
+
+.markets {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  gap: 8px;
+  width: 120px;
+  height: 32px;
+  margin: 20px;
+  background: #f3f2f1;
+  border-radius: 4px;
+  flex: none;
+  order: 1;
+}
+
+.marketsmap {
+  padding-left: 250px;
+  margin: 20px;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  flex-direction: initial;
+  justify-content: flex-start;
+  display: flex;
+}
+
+.more {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-end;
+  padding: 8px;
+  gap: 8px;
+  width: 150px;
+  height: 40px;
+  background: #e5ffde;
+  border-radius: 4px;
+  flex: none;
+  order: 3;
+}
+
+.rating {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h2 {
+  height: 54px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  padding-left: 120px;
+  line-height: 150%;
+  color: #414141;
+  flex: none;
+  order: 0;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+}
+
+.alloffers {
+  width: 260px;
+  height: 24px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  padding-right: 120px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  flex-wrap: nowrap;
+  color: #606060;
+  background-color: #ffffff00;
+  flex: none;
+  order: 0;
+  border: none;
+}
+
+.specialoffers {
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: initial;
+  justify-content: center;
+  display: flex;
+}
+
+.itemblock {
+  padding-left: 100px;
+  padding-right: 100px;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  align-items: center;
+  flex-direction: initial;
+  justify-content: space-around;
+  display: flex;
+}
+
+.map {
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  align-items: center;
+  flex-direction: initial;
+  justify-content: space-around;
+  display: flex;
+}
+
+.article1 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  width: 376px;
+  height: 420px;
+  background-color: rgb(255, 255, 255);
+}
+
+h3 {
+  width: 256px;
+  height: 48px;
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #414141;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+}
+
+h4 {
+  width: 54px;
+  height: 27px;
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  color: #414141;
+  flex: none;
+  order: 0;
+}
+
+h6 {
+  width: 71px;
+  height: 18px;
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #bfbfbf;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+}
+
+p {
+  font-family: "Rubik", sans-serif;
+}
+
+a {
+  height: 18px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #414141;
+  flex: none;
+}
+
+.banner1 {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.under {
+  height: 100px;
+  background-color: rgb(249, 244, 226);
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: initial;
+  justify-content: space-around;
+  display: flex;
+}
+
+.about {
+  width: 800px;
+  padding-left: 100px;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: initial;
+  justify-content: space-around;
+  display: flex;
+}
+
+.about2 {
+  width: 400px;
+  padding-right: 100px;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: initial;
+  justify-content: space-around;
+  display: flex;
+}
+.Netw {
+  width: 40px;
+  height: 40px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  color: #232323;
+  background-color: #ffffff00;
+  flex: none;
+  flex-wrap: nowrap;
+  align-self: center;
+  border: none;
+  justify-content: space-around;
+}
